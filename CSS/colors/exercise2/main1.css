@@ -1,0 +1,20 @@
+.div1{
+    opacity:0.5;
+}
+.first{
+    color: darkturquoise;
+    background: #bd5313;
+    opacity: 0.5;
+}
+.second{
+    color:rgb(0, 206, 209);
+    background:rgba(57, 90, 150, 0.9);
+
+}
+.third{
+    color: #00ced1;
+    background: #000080;
+}
+.div2 {
+    background: rgba(0,0,0, 0.5);
+}

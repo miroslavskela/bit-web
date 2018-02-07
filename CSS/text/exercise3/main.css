@@ -1,0 +1,43 @@
+* {
+    font-size: 18px; 
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'NunitoSans';
+    src: url('./nunito-sans/NunitoSans/NunitoSans-Regular.ttf')
+}
+
+.prvi {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:2em;
+    font-weight: bold;
+}
+.drugi {
+    font-family: Courier New, Courier, monospace;
+    font-style: oblique;
+}
+.treci {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.q1 {
+    font-family: Courier New, Courier, monospace;
+    font-style:oblique;
+}
+.q2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.q3 {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.cetvrti{
+     font-family: 'Nanum Brush Script', cursive;
+     font-size: 50px;
+}
+span {
+    font-style: italic;
+    font-weight: 900;
+}
+.wwwww {
+    font-family: NunitoSans;
+}
