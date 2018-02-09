@@ -1,0 +1,42 @@
+
+/*.container{
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid blue;
+}*/
+h1{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+.firstP, .secondP, .thirdP{
+    background: yellow;
+    margin-right: 20px;
+    display: inline-block;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    
+}
+.firstP, .thirdP{
+    border: 5px red dashed;
+    
+}
+.secondP{
+    border: 5px solid green;
+   
+}
+.firstP{
+   
+   
+}
+.secondP{
+  
+  visibility: hidden; 
+   
+}
+.thirdP:hover{
+    visibility:hidden;
+  
+}
+
