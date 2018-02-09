@@ -13,9 +13,9 @@ h1{
     background: yellow;
     margin-right: 20px;
     display: inline-block;
-    overflow: hidden;
+    
     width: 100px;
-    height: 100px;
+    
     
 }
 .firstP, .thirdP{
@@ -27,13 +27,17 @@ h1{
    
 }
 .firstP{
-   
+   width: 300px;
    
 }
 .secondP{
-  
-  visibility: hidden; 
+  width: 200px;
+  /*visibility: hidden;*/
    
+}
+.thirdP{
+    width:400px;
+    
 }
 .thirdP:hover{
     visibility:hidden;
