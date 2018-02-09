@@ -1,0 +1,10 @@
+ul>li>a {
+    color:rgb(0, 255, 55);
+    text-shadow: 16px -8px 3px rgba(32, 161, 136, 0.73);
+}
+a:link {
+    color:red;
+}
+a:visited {
+    color: black;
+}
