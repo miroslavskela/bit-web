@@ -1,0 +1,48 @@
+form{
+    box-sizing: border-box;
+    width: 25%;
+    margin: 0 auto;
+
+}
+fieldset {
+    
+    background-color: #b1b1b4;
+    padding: 10px 25px 30px 25px;
+    border: none;
+    border-radius: 10px 0;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 15px; 
+    border-bottom: 1px solid grey;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+span {
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.diff{
+display: inline;
+color:  yellow;
+
+
+}
+input {
+    border-radius:7px;
+    width:100%;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: 3px 0px 3px 0px rgba(0,0,0,0.35);;
+
+}
+.sbm {
+    background-color: #c20000;
+    width: 100%;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
