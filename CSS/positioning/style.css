@@ -1,0 +1,48 @@
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color:red;
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.position1{
+    position: relative;
+}
+.position2{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+.position3{
+    position: relative;
+    bottom: 200px;
+    left:200px;
+}
+.klasa1{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    z-index: 2;
+}
+#kont{
+    position: relative;
+}
+.klasa2{
+    position:absolute;
+    right:100px;
+    top: 100px;
+    z-index: 1;
+}
+.klasa3{
+    position: absolute;
+    right: 200px;
+    top: 200px;
+}
