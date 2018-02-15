@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*---------------------
+        header
+---------------------*/
+header {
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header img {
+    margin: 5% auto;
+    display: block;
+    width: 100%;
+}
+
+header nav ul {
+    text-align: center;
+}
+
+header nav ul li {
+    list-style-type: none;
+    padding: 2%;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+header nav ul li:last-of-type {
+    border-bottom: 1px solid black;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+header nav ul li:hover {
+    background: blue;
+}
+
+header nav ul li:hover a {
+    color: white;
+}
+/*======================tablet===========================*/
+
+@media (min-width: 768px) {
+    header{
+        position: relative;
+    }
+   header h1{
+       display:inline-block;
+       text-align: left;
+        padding-top: 20px;
+   }
+   header nav{
+       position: absolute;
+       top: 20px;
+       right: 5px;
+      
+   }
+   header nav ul{
+    float: right;
+    
+   }
+   header nav ul li{
+    display: inline-block;
+    border: none;
+    
+   }
+   header nav ul li:hover{
+    background: lightblue;
+   }
+   header nav ul li:last-of-type {
+    border-bottom: none;;
+}
+header nav ul{
+    text-align: left;
+}
+header>img{
+    border:1px solid black;
+    padding: 1%;
+    border-radius: 5px;
+}
+}
+/*8====================desktop=================D-*/
+@media (min-width: 992px) {
+
+    container {
+        width:80%;
+
+    }
+    header {
+        width:100%
+    }
+
+}
+
+/*---------------------
+        main
+---------------------*/
+
+section article {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+section article img {
+    padding: 1%;
+}
+
+section article p {
+    padding: 1%;
+}
+/* ======================tablet======================*/
+@media (min-width: 768px) {
+    section{
+        font-size: 0;
+    }
+    section>article{
+       border-radius: 5px;
+    }
+    article>img{
+        width:40%;
+        display:inline-block;
+        vertical-align: middle;
+        margin: 0;
+        
+    }
+    article>p{
+        width: 60%;
+        display:inline-block;
+        font-size: 1rem;
+        vertical-align: middle;
+        text-align: center;
+        
+       
+    }
+
+}
+/*8====================desktop=================D-*/
+@media (min-width: 992px) {
+
+section article {
+    border:none;
+    width:33%;
+    display: inline-block;
+}
+article>img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+section>article>p{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding:10px;
+
+}
+
+
+
+
+}
+
+
