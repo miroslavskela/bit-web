@@ -65,10 +65,11 @@ header nav ul li:hover a {
        text-align: left;
         padding-top: 20px;
    }
-   header nav{
+   header nav {
        position: absolute;
        top: 20px;
        right: 5px;
+       width:250px;
       
    }
    header nav ul{
@@ -78,6 +79,8 @@ header nav ul li:hover a {
    header nav ul li{
     display: inline-block;
     border: none;
+    padding:0;
+    margin-right: 5px;
     
    }
    header nav ul li:hover{
