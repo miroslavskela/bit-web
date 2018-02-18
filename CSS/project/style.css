@@ -261,7 +261,7 @@ main>section.touch>article {
 }
 
 .touch>article:nth-of-type(2) h2 {
-    padding: 4%;
+    padding: 6%;
 }
 
 
@@ -269,7 +269,7 @@ main>section.touch>article {
     text-decoration: none;
     color: white;
     display: inline-block;
-    padding: 4%;
+    padding: 6%;
 }
 
 .touch>article:nth-of-type(3) {
