@@ -300,6 +300,56 @@ main>section.touch>article {
     padding: 2%;
 }
 
+
+/*SECTION CLASS FORM*/
+
+.form{
+    width: 90%;
+    margin: 0 auto;
+}
+.form h2{
+    text-align: center;
+    padding: 4px;
+    text-decoration: underline;
+    margin-bottom: 9%;
+    margin-top: 20%; 
+}
+.form input{
+width: 100%;
+margin-bottom: 4%;
+padding:1.5%;
+}
+.form textarea{
+    width: 100%;
+    padding: 1.5%;
+}
+.form input.submit{
+    width: 30%;
+    background: orange;
+    border-radius: 15%;
+    color: white;
+}
+/* FOOTER */
+footer{
+    width: 100%;
+    background: black;
+}
+.main  {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10%;
+}
+.main>ul>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+}
+.main p{
+    color: white;
+    margin-top: 10%;
+}
+
 /*==========TABLET MAIN SECTION====================*/
 
 @media (min-width:768px) {
