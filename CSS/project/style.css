@@ -14,6 +14,7 @@
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
+
 /*=========HEADER==========*/
 
 header {
@@ -42,6 +43,7 @@ header>a {
     padding: 1%;
     margin: 50px auto;
 }
+
 /*==========HEADER TABLET===============/*
 
 /*==========NAVIGATION==========*/
@@ -86,38 +88,37 @@ nav>ul>li>a {
     color: white;
     display: block;
 }
+
 /*=========navigation tablet===============*/
-@media (min-width:768px ){
 
-nav>h1{
-   position: absolute;
-   margin: 0;
-   left:-5%;
-    
-}
-nav>h1>span.grey{
-    color: white;
-} 
-nav{
-    position: absolute;
-    top: 4.5%;
-    right: 2%;
-}
-nav>ul{
-float: right;
-background: none;
-}
-nav>ul>li{
-    display: inline-block;
-    margin-top:0.7%;
+@media (min-width:768px) {
+    nav>h1 {
+        position: absolute;
+        margin: 0;
+        left: -5%;
+    }
+    nav>h1>span.grey {
+        color: white;
+    }
+    nav {
+        position: absolute;
+        top: 4.5%;
+        right: 2%;
+    }
+    nav>ul {
+        float: right;
+        background: none;
+    }
+    nav>ul>li {
+        display: inline-block;
+        margin-top: 0.7%;
+    }
 }
 
-
-}
 /*============main section=============*/
 
 main {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -130,7 +131,7 @@ main>section>h2 {
 }
 
 main>section>article {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -159,49 +160,174 @@ main>section>article>ul>li {
 }
 
 main>section>img {
-    width: 90%;
+    width: 80%;
     display: block;
     margin: 0 auto;
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+/*  SECTIONWHAT PEOPLE SAYS  */
+
+.peoplesays>h2 {
+    text-align: center;
+    padding: 4px;
+    text-decoration: underline;
+    margin-bottom: 9%;
+    margin-top: 20%;
+}
+
+.peoplesays>article {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    background: rgba(59, 121, 255, 0.938);
+}
+
+.peoplesays>article>img {
+    width: 120px;
+    border: 2px double white;
+    border-radius: 50%;
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.peoplesays>article>h3 {
+    display: inline-block;
+    margin-top: 55px;
+    color: black;
+}
+
+.peoplesays>article>p {
+    clear: both;
+    text-align: justify;
+    color: white;
+    padding: 2%;
+}
+
+.star {
+    margin-top: -4%;
+}
+
+/* SECTION CLASS TOUCH   */
+
+section.touch {
+    width: 100%;
+}
+
+.touch>h2 {
+    text-align: center;
+    padding: 4px;
+    text-decoration: underline;
+    margin-bottom: 9%;
+    margin-top: 20%;
+}
+
+main>section.touch>article {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.touch>article:nth-of-type(1) {
+    background: green;
+    text-align: center;
+    color: white;
+}
+
+.touch>article:nth-of-type(1) h2 {
+    padding: 4%;
+}
+
+.touch>article:nth-of-type(1) a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 4%;
+}
+
+
+
+   
+
+
+
+.touch>article:nth-of-type(2) {
+    background: rgb(219, 59, 134);
+    text-align: center;
+    color: white;
+}
+
+.touch>article:nth-of-type(2) h2 {
+    padding: 6%;
+}
+
+
+.touch>article:nth-of-type(2) a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 6%;
+}
+
+.touch>article:nth-of-type(3) {
+    background: rgb(67, 54, 241);
+    text-align: center;
+    color: white;
+}
+
+.touch>article:nth-of-type(3) h2 {
+    padding: 4%;
+}
+.touch>article:nth-of-type(3) a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 4%;
+}
+
+
+.touch>article:nth-of-type(4) {
+    background: rgb(54, 139, 250);
+    text-align: center;
+    color: white;
+}
+.touch>article:nth-of-type(4) img {
+    display: block;
+    margin: 0 auto;
+    padding: 2%;
+}
+
 /*==========TABLET MAIN SECTION====================*/
-@media (min-width:768px){
-main>section>article{
-    width: 50%;
-    display: inline-block;
-    vertical-align: top;
-    
-}
-main>section>img{
-    width: 50%;
-    display: inline-block;
-    margin: 0;
-    
 
-}
-
+@media (min-width:768px) {
+    main>section>article {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    main>section>img {
+        width: 50%;
+        display: inline-block;
+        margin: 0;
+    }
 }
 
 /*==============DESKTOP MAIN====================*/
-@media (min-width:1000px){
-main{
-    width: 80%;
-    margin: 0 auto;
-    
-}
 
-main>section>article{
-    width: 31.3%;
-    
-}
-
-main>section>img{
-    width:33.3%;
-   margin:0 1% 0 1%;
-   height:320px;
-}
-
-
-
+@media (min-width:1000px) {
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
+    main>section>article {
+        width: 31.3%;
+    }
+    main>section>img {
+        width: 33.3%;
+        margin: 0 1% 0 1%;
+        height: 320px;
+    }
 }
