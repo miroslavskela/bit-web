@@ -188,9 +188,9 @@ main>section>img {
 
 /*==============DESKTOP MAIN====================*/
 
-@media (min-width:1000px) {
+@media (min-width:1200px) {
     main {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
     main>section>article {
@@ -203,7 +203,7 @@ main>section>img {
     }
 }
 
-/*  SECTIONWHAT PEOPLE SAYS  */
+/*  SECTION WHAT PEOPLE SAYS  */
 
 .peoplesays>h2 {
     text-align: center;
@@ -265,7 +265,15 @@ main>section>img {
 
 }
 /*=========SECTION WHAT PEOPLE SAY DESKTOP======*/
+@media (min-width:1200px){
+ .peoplesays>article{
+     width: 33%;
+ }
+ .peoplesays>article:nth-of-type(1){
+    margin-right: 0;
+}
 
+}
 /* SECTION CLASS TOUCH   */
 
 section.touch {
@@ -302,12 +310,6 @@ main>section.touch>article {
     display: block;
     padding: 4%;
 }
-
-
-
-   
-
-
 
 .touch>article:nth-of-type(2) {
     background: rgb(219, 59, 134);
@@ -385,7 +387,18 @@ main>section.touch>article {
 
 }
 /*============section class TOUCH desktop=====================*/
+@media (min-width:1200px){
+    main>section.touch>article {
+        display: inline-block;
+        width: 25%;
+        margin: 0 auto;
+    }
+    main>section.touch{
+        width: 100%;
+    }
 
+
+}
 
 
 /*SECTION CLASS FORM*/
@@ -409,9 +422,10 @@ padding:1.5%;
 .form textarea{
     width: 100%;
     padding: 1.5%;
+    font-family: 'Roboto', sans-serif;
 }
 .form input.submit{
-    width: 30%;
+    width: 25%;
     background: orange;
     border-radius: 15%;
     color: white;
@@ -420,7 +434,7 @@ padding:1.5%;
 /*===========section class form tablet======================*/
 @media (min-width:768px){
     .form input{
-        width: 32.7%;
+        width: 32.8%;
         margin-bottom: 4%;
         padding:1.5%;
         }
