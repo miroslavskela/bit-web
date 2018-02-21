@@ -1,0 +1,19 @@
+.container {
+  width: 80%;
+  margin: 0 auto; }
+  .container .one {
+    background: red;
+    color: white;
+    text-shadow: 4px 4px 2px green; }
+  .container .two {
+    color: red;
+    background: green;
+    -webkit-box-shadow: 5px 10px 5px 10px blue;
+    -moz-box-shadow: 5px 10px 5px 10px blue;
+    box-shadow: 5px 10px 5px 10px blue; }
+  .container .three {
+    background: red; }
+  .container .four {
+    background: green; }
+
+/*# sourceMappingURL=mixin.css.map */

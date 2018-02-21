@@ -1,0 +1,25 @@
+
+@import "variables";
+@import "mixinspartial";
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    .one {
+        background: $color1;
+        color: $color3;
+        @include text-shadow ($color2);
+    }
+    .two {
+        color: $color1;
+        background: $color2;
+        @include box-shadow($box1, $color5);
+    }
+    .three {
+        background: $color1;
+    }
+
+    .four {
+        background:  $color2;
+    }
+}

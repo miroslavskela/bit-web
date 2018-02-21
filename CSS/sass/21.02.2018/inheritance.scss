@@ -1,0 +1,25 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+    border: 2px solid silver;
+}
+
+
+.p1 {
+    border: 1px solid red;
+    float: left;
+    width:  500 / 960*100%;
+}
+
+.p2 {
+    @extend .p1;
+    border-color: blue;
+    float: right;
+    width: 200 / 960*100%;
+}
+
+.p3 {
+    @extend .p1;
+    border-color: green;
+    width:  110 / 960*100%;
+}

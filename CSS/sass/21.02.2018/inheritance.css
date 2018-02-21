@@ -1,0 +1,20 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+  border: 2px solid silver; }
+
+.p1, .p2, .p3 {
+  border: 1px solid red;
+  float: left;
+  width: 52.0833333333%; }
+
+.p2 {
+  border-color: blue;
+  float: right;
+  width: 20.8333333333%; }
+
+.p3 {
+  border-color: green;
+  width: 11.4583333333%; }
+
+/*# sourceMappingURL=inheritance.css.map */
