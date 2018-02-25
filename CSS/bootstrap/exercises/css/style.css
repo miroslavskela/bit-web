@@ -7,6 +7,10 @@ div {
 .middle {
   background-color: black;
   height: 30px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  color: white; }
+
+.row1 {
+  margin-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
