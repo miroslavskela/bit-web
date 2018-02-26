@@ -10,6 +10,15 @@
 .fullwidth1 {
   background-color: #18bc9c; }
 
+.fullwidth2 {
+  width: 100%;
+  background-color: #18bc9c;
+  margin-top: 60px; }
+
+.fullwidth3 {
+  width: 100%;
+  margin-top: 60px; }
+
 .navbar {
   background-color: #2c3e50;
   color: white; }
@@ -44,20 +53,83 @@
     display: block; }
 
 .section2 {
+  margin: 0 auto;
   width: 100%; }
   .section2 .img {
     display: block;
-    margin: 0 auto;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    width: 100%; }
   .section2 .center {
-    text-align: center; }
+    text-align: center;
+    margin: 0 auto; }
   .section2 h2 {
-    margin: 30px 0px 15px 0px; }
+    margin: 50px 0px 20px 0px;
+    font-size: 2em;
+    font-weight: 900; }
   .section2 .separator {
     height: 2px;
     width: 170px;
     margin: 15px auto;
+    margin-bottom: 25px;
     display: block;
     background-color: black; }
+
+.section3 {
+  text-align: center; }
+  .section3 h2 {
+    margin: 50px 0px 10px 0px;
+    font-size: 2.2em;
+    font-weight: 900;
+    color: white;
+    display: inline-block; }
+  .section3 .separator {
+    height: 2px;
+    width: 170px;
+    margin: 15px auto;
+    margin-bottom: 25px;
+    display: block;
+    background-color: white; }
+  .section3 p {
+    color: white;
+    line-height: 140%;
+    text-align: left;
+    padding: 10px; }
+  .section3 .btn-primary {
+    background-color: #18bc9c;
+    border: 2px solid white;
+    margin-bottom: 50px; }
+
+.fullwidth3 {
+  text-align: center; }
+  .fullwidth3 h2 {
+    margin: 50px 0px 10px 0px;
+    font-size: 2.2em;
+    font-weight: 900;
+    color: black;
+    display: inline-block; }
+  .fullwidth3 .separator {
+    height: 2px;
+    width: 170px;
+    margin: 15px auto;
+    margin-bottom: 25px;
+    display: block;
+    background-color: black; }
+
+.section4 input {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-bottom: 1px solid gray; }
+.section4 textarea {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-bottom: 1px solid gray; }
+.section4 .btn-primary {
+  background-color: #18bc9c; }
+.section4 .pull-left {
+  float: left;
+  margin-left: 10px; }
 
 /*# sourceMappingURL=style.css.map */
