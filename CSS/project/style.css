@@ -1,0 +1,466 @@
+@font-face {
+    font-family: 'fontproject';
+    src: url('./fonts/fontawesome-webfont.woff')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*=========HEADER==========*/
+
+header {
+    background-image: url(./images/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    padding-bottom: 15%;
+}
+
+header>h2 {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+header>a {
+    display: block;
+    text-decoration: none;
+    background: rgba(52, 107, 226, 1);
+    width: 30%;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin: 50px auto;
+}
+
+/*==========HEADER TABLET===============/*
+
+/*==========NAVIGATION==========*/
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav>h1 {
+    margin-top: 18px;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+nav>h1>span {
+    color: orange;
+    border: 3px solid grey;
+    border-right: none;
+    padding-left: 5px;
+}
+
+nav>h1>span.grey {
+    color: grey;
+    border: none;
+}
+
+nav>ul {
+    background: lightblue;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    text-align: center;
+    padding: 4px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+/*=========navigation tablet===============*/
+
+@media (min-width:768px) {
+    nav>h1 {
+        position: absolute;
+        margin: 0;
+        left: -5%;
+    }
+    nav>h1>span.grey {
+        color: white;
+    }
+    nav {
+        position: absolute;
+        top: 4.5%;
+        right: 2%;
+    }
+    nav>ul {
+        float: right;
+        background: none;
+    }
+    nav>ul>li {
+        display: inline-block;
+        margin-top: 0.7%;
+    }
+}
+
+/*============main section=============*/
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main>section>h2 {
+    text-align: center;
+    padding: 4px;
+    text-decoration: underline;
+    margin-bottom: 4%;
+    margin-top: 5%;
+}
+
+main>section>article {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main>section>article>h3 {
+    text-align: left;
+    color: lightblue;
+    margin-bottom: 4%;
+}
+
+main>section>article>p {
+    text-align: left;
+    padding-left: 5px;
+    line-height: 139%;
+    margin-bottom: 4%;
+}
+
+main>section>article>ul {
+    padding: 4px;
+    margin-left: 4%;
+}
+
+main>section>article>ul>li {
+    list-style-image: url(./images/arrow_bullet.png);
+    padding: 1%;
+    color: grey;
+}
+
+main>section>img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*==========TABLET MAIN SECTION====================*/
+
+@media (min-width:768px) {
+    main>section{
+        width: 90%;
+        margin:0 auto;
+    }
+    main>section>article {
+        width: 49%;
+        
+        display: inline-block;
+        vertical-align: top;
+    }
+    main>section>img {
+        width: 50%;
+        display: inline-block;
+        margin: 0;
+    }
+}
+
+/*==============DESKTOP MAIN====================*/
+
+@media (min-width:1000px) {
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
+    main>section>article {
+        width: 31.3%;
+    }
+    main>section>img {
+        width: 33.3%;
+        margin: 0 1% 0 1%;
+        height: 320px;
+    }
+}
+
+/*  SECTIONWHAT PEOPLE SAYS  */
+
+.peoplesays>h2 {
+    text-align: center;
+    padding: 4px;
+    text-decoration: underline;
+    margin-bottom: 9%;
+    margin-top: 20%;
+}
+
+.peoplesays>article {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    background: rgba(59, 121, 255, 0.938);
+}
+
+.peoplesays>article>img {
+    width: 120px;
+    border: 2px double white;
+    border-radius: 50%;
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.peoplesays>article>h3 {
+    display: inline-block;
+    margin-top: 55px;
+    color: black;
+}
+
+.peoplesays>article>p {
+    clear: both;
+    text-align: justify;
+    color: white;
+    padding: 2%;
+}
+
+.star {
+    margin-top: -4%;
+}
+/*====section what people say tablet=========*/
+@media (min-width:768px){
+    .peoplesays{
+        width: 90%;
+    }
+    .peoplesays>article {
+        width: 49%;
+        display:inline-block;
+        margin: 0 auto;
+        margin-bottom: 5%;
+        background: rgba(59, 121, 255, 0.938);
+    }
+    .peoplesays>article:nth-of-type(1){
+        margin-right: 1%;
+    }
+
+
+}
+/*=========SECTION WHAT PEOPLE SAY DESKTOP======*/
+
+/* SECTION CLASS TOUCH   */
+
+section.touch {
+    width: 100%;
+}
+
+.touch>h2 {
+    text-align: center;
+    padding: 4px;
+    text-decoration: underline;
+    margin-bottom: 9%;
+    margin-top: 20%;
+}
+
+main>section.touch>article {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.touch>article:nth-of-type(1) {
+    background: green;
+    text-align: center;
+    color: white;
+}
+
+.touch>article:nth-of-type(1) h2 {
+    padding: 6%;
+}
+
+.touch>article:nth-of-type(1) a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 4%;
+}
+
+
+
+   
+
+
+
+.touch>article:nth-of-type(2) {
+    background: rgb(219, 59, 134);
+    text-align: center;
+    color: white;
+}
+
+.touch>article:nth-of-type(2) h2 {
+    padding: 6%;
+}
+
+
+.touch>article:nth-of-type(2) a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 6%;
+}
+
+.touch>article:nth-of-type(3) {
+    background: rgb(67, 54, 241);
+    text-align: center;
+    color: white;
+}
+
+.touch>article:nth-of-type(3) h2 {
+    padding: 4%;
+}
+.touch>article:nth-of-type(3) a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 4%;
+}
+
+
+.touch>article:nth-of-type(4) {
+    background: rgb(54, 139, 250);
+    text-align: center;
+    color: white;
+}
+.touch>article:nth-of-type(4) img {
+    display: block;
+    margin: 0 auto;
+    
+    height: 220px;
+    width: 70%;
+    padding: 0%;
+}
+/*========SECTION CLASS TOUCH TABLET========*/
+@media (min-width:768px){
+    main>section.touch{
+        width: 100%;
+    }
+    main>section.touch>article {
+        display: inline-block;
+        width: 50%;
+        height: 220px;
+        margin: 0 auto;
+    }
+    .touch>article:nth-of-type(3) a{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding: 4%;
+        padding-top: 7%;
+    }
+    section.map{
+        width: 100%;
+    }
+    section.map iframe{
+        width: 100%;
+    }
+    
+
+}
+/*============section class TOUCH desktop=====================*/
+
+
+
+/*SECTION CLASS FORM*/
+
+.form{
+    width: 90%;
+    margin: 0 auto;
+}
+.form h2{
+    text-align: center;
+    padding: 4px;
+    text-decoration: underline;
+    margin-bottom: 9%;
+    margin-top: 20%; 
+}
+.form input{
+width: 100%;
+margin-bottom: 4%;
+padding:1.5%;
+}
+.form textarea{
+    width: 100%;
+    padding: 1.5%;
+}
+.form input.submit{
+    width: 30%;
+    background: orange;
+    border-radius: 15%;
+    color: white;
+}
+
+/*===========section class form tablet======================*/
+@media (min-width:768px){
+    .form input{
+        width: 32.7%;
+        margin-bottom: 4%;
+        padding:1.5%;
+        }
+}
+
+/*=========SECTION CLASS FORM DESKTOP============*/
+/* FOOTER */
+footer{
+    width: 100%;
+    background: black;
+}
+.main  {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10%;
+}
+.main>ul>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+}
+.main p{
+    color: white;
+    margin-top: 10%;
+}
+/*============SECTION CLASS FOOTER TABLET========*/
+@media(min-width:768px){
+    .main  {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 10%;
+    }
+    .main p{
+        color: white;
+       padding-bottom: 5%;
+       border-bottom: 1px solid;
+    }
+    
+}
+
+
