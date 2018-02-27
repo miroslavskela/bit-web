@@ -1,0 +1,232 @@
+@import "variables";
+@font-face{
+    font-family:"lato-regular";
+    src: url('../vendor/font/lato-regular.ttf')
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato-regular;
+}
+
+.container-fluid {
+    background-color: $blueish;
+}
+
+
+
+.fullwidth1 {
+    background-color: $greenish;
+}
+
+.fullwidth2 {
+    
+    background-color: $greenish;
+    margin-top: 60px;
+    
+}
+
+.fullwidth3 {
+   
+    margin-top: 60px;
+}
+
+.fullwidth4 {
+   color:$colorWhite;
+    background-color: $blueish;
+    
+}
+
+.navbar {
+    background-color: $blueish;
+    color: white;
+    .navbar-brand {
+        color: $colorWhite;
+    }
+    .nav-item {
+        color: $colorWhite;
+    }
+    .navbar-toggler {
+        background-color: $greenish;
+        color: $colorWhite;
+    }
+    .navbar-toggler-icon {
+        background-color: $greenish;
+        color: $colorWhite;
+    }
+    @media screen and (min-width:992px) {
+        position: relative;
+    }
+}
+.navbar-nav{
+    @media screen and (min-width:992px) {
+        position: absolute;
+        right:20px;
+    }
+}
+
+.section1 {
+    background-color: $greenish;
+    color: $colorWhite;
+    text-align: center;
+    img {
+        display: block;
+        margin: 30px auto;
+    }
+    h1 {
+        font-size: 1.7em;
+    }
+    p {
+        font-size: 1.2em;
+        padding: 10px 20px;
+    }
+    .separator {
+        height: 2px;
+        width: 170px;
+        margin: 15px auto;
+        background-color: $colorWhite;
+        display: block;
+    }
+   
+}
+
+.section2 {
+    margin: 0 auto;
+    width: 100%;
+    .img {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .center {
+        text-align: center;
+        margin: 0 auto;
+    }
+    h2 {
+        margin: 50px 0px 20px 0px;
+        font-size: 2em;
+        font-weight: 900;
+    }
+    .separator {
+        height: 2px;
+        width: 170px;
+        margin: 15px auto;
+        margin-bottom: 25px;
+        display: block;
+        background-color: $colorBlack;
+    }
+}
+
+.section3 {
+   
+    h2 {
+        margin: 50px 0px 10px 0px;
+        font-size: 2.2em;
+        font-weight: 900;
+        color: $colorWhite;
+        display: inline-block;
+    }
+    .separator {
+        height: 2px;
+        width: 170px;
+        margin: 15px auto;
+        margin-bottom: 25px;
+        display: block;
+        background-color: $colorWhite;
+    }
+    p {
+        color: $colorWhite;
+        line-height: 140%;
+        text-align: left;
+        padding: 10px;
+        @media screen and (min-width: 576px) {
+            padding: 10px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        @media screen and (min-width: 992px) {
+            padding-left: 10px;
+            padding-right: 10px;
+           
+        }
+        
+    }
+    .btn-primary {
+        background-color: $greenish;
+        border: 2px solid $colorWhite;
+        margin-bottom: 50px;
+    }
+    @media screen and (min-width: 992px) {
+        width:70%;
+        margin:0 auto;
+    }
+}
+
+.fullwidth3 {
+    background: $colorWhite;
+    text-align: center;
+    
+    h2 {
+        margin: 50px 0px 10px 0px;
+        font-size: 2.2em;
+        font-weight: 900;
+        color: $colorBlack;
+        display: inline-block;
+    }
+    .separator {
+        height: 2px;
+        width: 170px;
+        margin: 15px auto;
+        margin-bottom: 25px;
+        display: block;
+        background-color: $colorBlack;
+    }
+}
+
+.section4 {
+    
+    input {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+    textarea {
+        width: 100%;
+        padding: 20px;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+    .btn-primary {
+        background-color: $greenish;
+    }
+    .pull-left {
+        float: left;
+        margin-left: 10px;
+    }
+}
+
+.section5 {
+    margin-top: 60px;
+    color: $colorWhite;
+    margin: 0 auto;  
+
+    .p-4{
+        font-size: 1.4em;
+    }
+    }
+    
+p.bottom{
+    width: 50%;
+    margin:0 auto;
+    
+    color:$colorWhite;
+    font-size: 1.2em;
+    
+}
+.spanbottom{
+    color: $colorGray;
+    font-size: 0.9em;
+}
