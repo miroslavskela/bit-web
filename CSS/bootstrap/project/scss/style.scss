@@ -96,6 +96,7 @@
         background-color: $colorWhite;
         display: block;
     }
+   
 }
 
 .section2 {
@@ -241,6 +242,11 @@
         div {
             margin: 0 auto;
         }
+    }
+    .colorwhite{
+        color:$colorWhite;
+        font-size: 1.4rem;
+        
     }
 }
 p.bottom{
