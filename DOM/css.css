@@ -1,0 +1,20 @@
+.background {
+    background-color: brown;
+}
+
+.background1 {
+    background-color: darksalmon;
+}
+
+.color {
+    color: green;
+}
+
+.background2 {
+    background: yellow;
+    text-transform: uppercase;
+}
+
+.active {
+    background: silver;
+}
