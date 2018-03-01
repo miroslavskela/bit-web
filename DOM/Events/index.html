@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            background:black;
+            height: 400px;
+        }
+        .second {
+            background:rgb(90, 107, 90);
+            height:200px;
+        }
+        .third {
+            background:yellow;
+        }
+        button {
+            background: rgb(117, 62, 62);
+            display: block;
+            margin: 20px auto;
+            border-radius:10%; 
+        }
+    </style>
+</head>
+<body>
+    <div ><br>
+        <button onclick="changebackgroundColor()">Toggle Background</button>
+
+    </div>    
+    <script>
+        function changebackgroundColor (){
+            var background = document.querySelector('div');
+            background.classList.toggle('second');
+            var button = document.querySelector('button');
+            button.classList.toggle('third');
+        }
+
+    </script>
+</body>
+</html>

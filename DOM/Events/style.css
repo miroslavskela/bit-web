@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    background: rgb(223, 167, 167);
+    margin: 0 auto;
+}
+div.messageBoard{
+    width: 90%;
+    margin: 10px auto;
+    height: 400px;
+    background: white;
+    overflow-y: scroll;
+}
+input   {
+    width: 75%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    height: 30px;
+    
+
+}
+button{
+    width:10%;
+    background: lightblue;
+    margin-left: 5%;
+}
+p{
+    padding: 5px;
+    margin-left: 10px;
+   
+    font-family: Courier New, Courier, monospace;
+}
