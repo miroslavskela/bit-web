@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: not-allowed;
+}
+body{
+ width: 100%;
+    background-image: url("field.png");
+    background-size: cover;
+    position: relative;
+  height: 800px;
+}
+img{
+    position: absolute;
+}
+button{
+    display: block;
+    margin: 50px auto;
+}
