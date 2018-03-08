@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+<button>click Me</button>
+
+    <script>
+
+        document.querySelector("button").addEventListener("click", function(){        
+        getStuff("https://www.freegeoip.net/xml/4.2.2.2")
+        })            
+
+        function getStuff(ip) {
+            var ajax = new XMLHttpRequest();
+            ajax.open("GET", ip);
+            ajax.send();
+
+            ajax.onload = function () {
+                var ajaxResponse = ajax.responseXML;
+                var countryElement = ajaxResponse.querySelector("CountryName").textContent;
+                console.log(ajaxResponse);
+                
+            }
+        }
+
+    </script>
+</body>
+
+</html>

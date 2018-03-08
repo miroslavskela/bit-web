@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+<button>click Me</button>
+
+    <script>
+
+        document.querySelector("button").addEventListener("click", function(){        
+        getStuff("https://freegeoip.net/json/github.com")
+        })            
+
+        function getStuff(ip) {
+            var request = new XMLHttpRequest();
+            request.open("GET", ip);
+            request.send();
+
+            request.onload = function () {
+
+                if(request.status >= 200 && request.status < 400) {
+                    data = JSON.parse(request.responseText)
+                    console.table(data); 
+                    } else {
+                        throw new Error ("something went wrong")
+                    }
+
+                    request.onerror = function () {
+                    }
+                }                
+            }
+        
+
+    </script>
+</body>
+
+</html>
