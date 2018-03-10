@@ -24,11 +24,15 @@ form{
 .clr{
     clear: both;
 }
-.section ul li, p{
+.section ul li, {
     display: inline-block;
     padding: 10px;
     
 }
 img{
     width:100px;
+}
+div.user1{
+    display: inline-block;
+    width: 32%;
 }

@@ -1,6 +1,6 @@
 $(function () {
-
-        $('.users').append($("<ul>"))
+    $('.users').append($("<div class='github'>"))
+    var  $github = $('.github')
 
             var buttonSearch = $('#button-search');
             buttonSearch.on('click', function (event) {
@@ -16,12 +16,15 @@ $(function () {
                     request.done(function (response) {
                         console.log( response);
                         response.items.forEach(function(items){
+                            var $div = $('<div class="user1">')
                             var $liItem = $("<img>")
                             var $liLogin = $("<p>")
+                            var $storage = localStorage.setItem(JSON.stringify(items), JSON.stringify(items.avatar_url))
                             $liItem.attr('src',items.avatar_url) 
                             $liLogin.text(items.login)
-                            $liItem.append($liLogin)
-                            $('ul').append($liLogin)
+                            $div.append($liItem)
+                            $div.append($liLogin)
+                            $github.append($div)
                         });
                         
                     });
